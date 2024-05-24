@@ -9,28 +9,28 @@ function Header(){
   const [burgerstatus, setBurgerStatus]=useState(false)
     return(
       <Container>
-        <a href='#'> <img src='/images/logo.svg'/></a>
+        <a href='www.google.com'> <img src='/images/logo.svg'/></a>
         <Menu>
-           <p><a href='#' >Model S</a></p> 
-           <p><a href='#' >Model 3</a></p> 
-           <p><a href='#' >Model x</a></p> 
-           <p><a href='#' >Model Y</a></p> 
+           <p><a href='www.google.com' >Model S</a></p> 
+           <p><a href='www.google.com' >Model 3</a></p> 
+           <p><a href='www.google.com' >Model x</a></p> 
+           <p><a href='www.google.com' >Model Y</a></p> 
         </Menu>
         <Rightmenu>
-        <a href='#' href='#'>shop</a>
-        <a href='#' >Tesla Account</a>
+        <a href='www.google.com' href='www.google.com'>shop</a>
+        <a href='www.google.com' >Tesla Account</a>
         <CustomMenu onClick={()=>setBurgerStatus(true)}></CustomMenu>
         </Rightmenu>
       <BurgerNav show={burgerstatus}>
         <CloseWraper>        <CustomClose onClick={()=>setBurgerStatus(false)}></CustomClose></CloseWraper>
 
-        <li><a href='#' >Existing Inventory</a></li>
-        <li><a href='#' >Used Inventory</a></li>
-        <li><a href='#' >Trade-in</a></li>
-        <li><a href='#' >cypertruck</a></li>
-        <li><a href='#' >Roadaster</a></li>
-        <li><a href='#' >Semi</a></li>
-        <li><a href='#' >Charging</a></li>
+        <li><a href='www.google.com' >Existing Inventory</a></li>
+        <li><a href='www.google.com' >Used Inventory</a></li>
+        <li><a href='www.google.com' >Trade-in</a></li>
+        <li><a href='www.google.com' >cypertruck</a></li>
+        <li><a href='www.google.com' >Roadaster</a></li>
+        <li><a href='www.google.com' >Semi</a></li>
+        <li><a href='www.google.com' >Charging</a></li>
       </BurgerNav>
 
       </Container>
