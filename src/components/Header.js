@@ -9,7 +9,7 @@ function Header(){
   const [burgerstatus, setBurgerStatus]=useState(false)
     return(
       <Container>
-        <a href='www.google.com'> <img src='/images/logo.svg'/></a>
+        <a href='www.google.com'> <img src='/images/logo.svg' alt='logo'/></a>
         <Menu>
            <p><a href='www.google.com' >Model S</a></p> 
            <p><a href='www.google.com' >Model 3</a></p> 
@@ -17,7 +17,7 @@ function Header(){
            <p><a href='www.google.com' >Model Y</a></p> 
         </Menu>
         <Rightmenu>
-        <a href='www.google.com' href='www.google.com'>shop</a>
+        <a href='www.google.com' >shop</a>
         <a href='www.google.com' >Tesla Account</a>
         <CustomMenu onClick={()=>setBurgerStatus(true)}></CustomMenu>
         </Rightmenu>
